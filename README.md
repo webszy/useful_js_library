@@ -20,8 +20,50 @@ useful Javascript Library when i on work (工作中常用的js库，以及相关
     return q
   }
   ```
++ 捕获await的错误
 
+  ```javascript
+    function to(promise) {
+      return promise
+          .then(data => {
+              return [null, data];
+          })
+          .catch(err => [err]);
+  }
+  ```
++ 判断游览器信息(来自网络)
+
+  ```javascript
+    function BrowserType() {
+      const ua = navigator.userAgent.toLowerCase();
+      const testUa = regexp => regexp.test(ua);
+      const testVs = regexp => (ua.match(regexp) + "").replace(/[^0-9|_.]/ig, "").replace(/_/ig, ".");
+      // 接上以上if...else条件判断
+      // ......
+      // 获取到system、systemVs、platform、engine、engineVs、supporter、supporterVs、shell、shellVs
+      return Object.assign({
+          engine, // webkit gecko presto trident
+          engineVs,
+          platform, // desktop mobile
+          supporter, // chrome safari firefox opera iexplore edge
+          supporterVs,
+          system, // windows macos linux android ios
+          systemVs
+      }, shell === "none" ? {} : {
+          shell, // wechat qq uc 2345 sougou liebao maxthon baidu
+          shellVs
+      });
+  }
+
+  ```
+  + 获取本月天数
   
+  ```javascript
+  function GetDaysOfMonth(Year,Month){
+    var date = new Date(Year, Month, 0);
+     return(parseInt(date.getDate()));
+  }
+  ```
 
 ### 工具库
 
@@ -41,4 +83,5 @@ useful Javascript Library when i on work (工作中常用的js库，以及相关
 + 移动端 [vant](https://github.com/youzan/vant)
 + totast & loading [vue2-toast](https://github.com/lin-xin/vue-toast)
 + 表格 [d2-crud](https://github.com/d2-projects/d2-crud)
-+ 图表实现
++ 图表: [echarts,地图在map文件夹中](https://github.com/apache/incubator-echarts)
+
