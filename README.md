@@ -85,3 +85,12 @@ useful Javascript Library when i on work (工作中常用的js库，以及相关
 + 表格 [d2-crud](https://github.com/d2-projects/d2-crud)
 + 图表: [echarts,地图在map文件夹中](https://github.com/apache/incubator-echarts)
 
+### 未来方向
+
+#### 前端
++ typescript+React
++ dart & flutter
+
+#### 后端
++ nodejs的继续深入
++ rust 
