@@ -77,6 +77,7 @@ useful Javascript Library when i on work (工作中常用的js库，以及相关
 + MD5 [blueimp-md5](https://github.com/clearbladeplatform/blueimp_md5)
 + 构建ios的plist [plist](https://github.com/TooTallNate/plist.js)
 + 解析xlsx  [xlsx](https://github.com/SheetJS/js-xlsx)
++ 日期处理 [Day.js](https://github.com/iamkun/dayjs)
 
 ### UI库
 
