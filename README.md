@@ -78,6 +78,7 @@ useful Javascript Library when i on work (工作中常用的js库，以及相关
 + 构建ios的plist [plist](https://github.com/TooTallNate/plist.js)
 + 解析xlsx  [xlsx](https://github.com/SheetJS/js-xlsx)
 + 日期处理 [Day.js](https://github.com/iamkun/dayjs)
++ 前端生成zip [jszip](https://github.com/Stuk/jszip)
 
 ### UI库
 
