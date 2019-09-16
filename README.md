@@ -64,11 +64,21 @@ useful Javascript Library when i on work (工作中常用的js库，以及相关
      return(parseInt(date.getDate()));
   }
   ```
+  
+  + 防止精度丢失
+
+   ```javascript
+  function FixedANumber(num,n) {
+  	return +(Math.round((num + 0.000001) * 100) / 100).toFixed(n)
+  }
+   ```
+
+​    
 
 ### 工具库
 
 + svg动画  [lottie-web](https://github.com/airbnb/lottie-web)
-+ css动画   [animate.css](https://github.com/daneden/animate.css)
++ css动画  [animate.css](https://github.com/daneden/animate.css)
 + 文件下载  [file-saver](https://github.com/eligrey/FileSaver.js)
 + h5视频播放   [vue-video-player](https://github.com/surmon-china/vue-video-player)
 + 下拉刷新，上拉加载 [mescroll](https://github.com/mescroll/mescroll)
@@ -79,6 +89,7 @@ useful Javascript Library when i on work (工作中常用的js库，以及相关
 + 解析xlsx  [xlsx](https://github.com/SheetJS/js-xlsx)
 + 日期处理 [Day.js](https://github.com/iamkun/dayjs)
 + 前端生成zip [jszip](https://github.com/Stuk/jszip)
++ 更好看的滚动效果 [better-scroll](https://github.com/ustbhuangyi/better-scroll)
 
 ### UI库
 
@@ -96,3 +107,5 @@ useful Javascript Library when i on work (工作中常用的js库，以及相关
 #### 后端
 + nodejs的继续深入
 + rust 
+
+![公众号.jpg](https://i.loli.net/2019/09/16/aRnxXWYGkdEJOug.jpg)
