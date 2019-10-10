@@ -90,6 +90,7 @@ useful Javascript Library when i on work (工作中常用的js库，以及相关
 + 日期处理 [Day.js](https://github.com/iamkun/dayjs)
 + 前端生成zip [jszip](https://github.com/Stuk/jszip)
 + 更好看的滚动效果 [better-scroll](https://github.com/ustbhuangyi/better-scroll)
++ js复制到剪贴板 [clipboard-copy](https://github.com/feross/clipboard-copy)
 
 ### UI库
 
