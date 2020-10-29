@@ -72,7 +72,16 @@ useful Javascript Library when i on work (工作中常用的js库，以及相关
   	return +(Math.round((num + 0.000001) * 100) / 100).toFixed(n)
   }
    ```
-
+  + 判断变量类型
+  ```javascript
+    var checkType = Function.prototype.call.bind(Object.prototype.toString);
+    console.log(toStr1({}));      // "[object Object]"
+    console.log(toStr1([]));      // "[object Array]"
+    console.log(toStr1(123));     // "[object Number]"
+    console.log(toStr1("abc"));   // "[object String]"
+    console.log(toStr1("abc"));   // "[object String]"
+    console.log(toStr1(new Date));// "[object Date]"
+  ```
 ​    
 
 ### 工具库
@@ -91,6 +100,9 @@ useful Javascript Library when i on work (工作中常用的js库，以及相关
 + 前端生成zip [jszip](https://github.com/Stuk/jszip)
 + 更好看的滚动效果 [better-scroll](https://github.com/ustbhuangyi/better-scroll)
 + js复制到剪贴板 [clipboard-copy](https://github.com/feross/clipboard-copy)
++ paypal支付组件 [paypal-checkout]()
++ 加密解密 [crypto-js]
++ 精度处理 [number-precision]
 
 ### UI库
 
@@ -99,14 +111,6 @@ useful Javascript Library when i on work (工作中常用的js库，以及相关
 + 表格 [d2-crud](https://github.com/d2-projects/d2-crud)
 + 图表: [echarts,地图在map文件夹中](https://github.com/apache/incubator-echarts)
 
-### 未来方向
 
-#### 前端
-+ typescript+React
-+ dart & flutter
-
-#### 后端
-+ nodejs的继续深入
-+ rust 
 
 ![公众号.jpg](https://i.loli.net/2019/09/16/aRnxXWYGkdEJOug.jpg)
